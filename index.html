@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Assignment 7</title>
+</head>
+<body>
+    
+    <div class="container d-flex justify-content-center flex-column align-items-center text-center">
+        <h1 class="my-4 fs-1 fw-bolder">Quote of the Day</h1>
+        <p class="fs-3 my-4">Press the button below to recieve a random quote!</p>
+
+        <button class="btn btn-primary fs-5 shadow mb-4" onclick="randomQuote()">New Quote</button>
+        <div id="quote" class="d-flex flex-column gap-2 fs-3 mt-4 shadow p-3 w-75 mx-auto d-none">
+            <p id="qholder"></p>
+            <span id="qmaster"></span>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
